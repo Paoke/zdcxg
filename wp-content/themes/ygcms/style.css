@@ -1,0 +1,131 @@
+/*  
+
+Theme Name: ygcms
+
+Theme URI: http://www.gdmv.cn
+
+Description: This is my theme for a cms.
+
+Version: 1.0
+
+Author: WM
+
+*/
+
+/* 清除浏览器预设样式 */
+html{
+	color: #686868;
+	background: #ededed;
+	text-align: center;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+li{list-style:none;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+h4, h5, h6{font-size:100%;}
+/* 全局属性 */
+a{color:#686868;text-decoration:none;}
+a:hover{color:#5177bb;text-decoration:none;}
+
+body {
+	font-family: "微软雅黑","Microsoft YaHei","宋体";
+	font-size: 14px;
+	background-color: #FFF;
+	margin: 0px auto;
+	padding: 0px;
+	
+}
+
+.box{
+	margin:0px auto;
+	width:1200px;
+	/* padding-top:12px; */
+}
+.clear{clear:both;}
+.title{
+	width:300px;
+	border-bottom: 1px #cdcdcd solid;	
+	margin:0px auto;
+	margin-bottom: 55px;/* 距离下边30px */
+}
+.title1{
+	font-size: 30px;
+	line-height: 30px;
+	color:#4e4e4e;
+	display: inline;
+	position: relative;
+	top:25px;
+	background: #fff;
+	padding:0px 30px;
+}
+.title2{
+	font-size: 14px;
+	color:#9b9b9b;
+	position: relative;
+	top:25px;
+}
+.line{
+	width:904px;
+	border-bottom: 1px #e1e1e1 solid;
+	position: absolute;
+	right:0px;
+}
+.news-more{
+	height:46px;
+	text-align: right;
+	line-height: 46px;
+	right:48px;
+	position: relative;
+}
+.xknews-more{
+	bottom:0px;
+	right:0px;
+}
+.news-more a{
+	color:#808080;
+}
+.news-more a:HOVER{
+	color:#d12317;
+}
+
+.wm-margin-top-41{
+	margin-top: 41px;
+}
+.wm-bac-shadow{
+	background:#fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+.wm-padding{
+	padding:23px 51px 21px 17px;
+}
+.wm-relative{
+	position: relative;
+}
+.wm-absolute{
+	position: absolute;
+}
+.wm-width-389{
+	width:389px;
+}
+.wm-float-left{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
